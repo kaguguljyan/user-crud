@@ -1,0 +1,4 @@
+echo "sqlalchemy>=2.0.0" > requirements.txt
+git add requirements.txt
+git commit -m "Add requirements"
+git push
