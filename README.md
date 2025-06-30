@@ -43,6 +43,8 @@ python -m src.users
 python -m src.cli add --name "имя" --age 25
 ```
 
+---
+
 # CLI-ИНСТРУКЦИЯ
 
 Основные команды:
