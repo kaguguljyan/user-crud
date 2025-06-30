@@ -16,7 +16,6 @@ class User(Base):  # создаём класс Note, который предст
     created_at = Column(DateTime, default=datetime.now)  # created_at- дата добавления
 
 
-Base.metadata.drop_all(engine) # удаляем таблицу users
 Base.metadata.create_all(engine)  # создаём таблицу users
 
 
@@ -127,5 +126,13 @@ def main():
         else:
             print("Некорректный ввод")
 
-if __name__ == "__main__":
+def run_interactive():
     main()
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "--cli":
+        from .cli import cli_main
+        cli_main()
+    else:
+        run_interactive()
