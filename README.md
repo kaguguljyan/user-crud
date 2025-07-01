@@ -34,7 +34,7 @@ pip install -r requirements.txt
 2.1. Интерактивный режим
 
 ```bash
-python -m src.users
+python -m src.project
 ```
 
 2.2. С использованием аргументов (пример)
