@@ -61,7 +61,7 @@ python -m src.cli add --name "имя" --age 25
 1. Добавление пользователя:
    
 ```bash
-python -m src.cli add --name "Иван" --age 30
+python -m src.cli add --name "Ольга" --age 30
 ```
 
 2. Показать всех пользователей:
