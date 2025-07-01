@@ -1,5 +1,5 @@
 import argparse
-from .project import add_user, show_users, update_user, delete_user
+from src.project import add_user, show_users, update_user, delete_user
 
 def cli_main():
     parser = argparse.ArgumentParser(description="CLI user-crud")
