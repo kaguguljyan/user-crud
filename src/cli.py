@@ -2,7 +2,7 @@ import argparse
 from .project import add_user, show_users, update_user, delete_user
 
 def cli_main():
-    parser = argparse.ArgumentParser(description="User Management CLI")
+    parser = argparse.ArgumentParser(description="CLI user-crud")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     
